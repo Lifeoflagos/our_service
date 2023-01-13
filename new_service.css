@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.heading{
+    padding: 22px 0px;
+    text-align: center;
+    color: lightgreen;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
+    grid-gap: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.card-container .card{
+    border: 3px solid lightgreen;
+    box-shadow: 5px 5px lightgreen;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+}
+.card-container .card-icon{
+    padding: 10px;
+}
+.card-container span{
+    font-size: 32px;
+    color: rgb(12, 184, 12);
+}
+.card-container .card-title{
+    padding: 5px;
+}
+.card-container p{
+    color: gray;
+}
+.card-container a{
+    color: rgb(12, 184, 12);
+    display: block;
+    padding: 10px;
+}
+.card-container a:hover{
+    filter: brightness(0.7);
+    color: blue;
+}
